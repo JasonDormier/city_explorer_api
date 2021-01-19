@@ -2,7 +2,7 @@
 /* ----------------- creating the server ----------------- */
 const express = require('express');
 const cors = require('cors');
-const { request } = require('express');
+
 require('dotenv').config();
 
 /* ----------------- Setup Application Server ----------------- */
