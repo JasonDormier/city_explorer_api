@@ -40,7 +40,7 @@ app.get('/location', (req, res) => {
   res.send(newLocation);
 });
 
-/* ----------------- Start the server ----------------- */
+/* ----------------- Helper Functions ----------------- */
 
 function Location(search_query, formatted_query, latitude, longitude) {
   this.search_query = search_query;
