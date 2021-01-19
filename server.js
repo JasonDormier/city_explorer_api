@@ -40,6 +40,16 @@ app.get('/location', (req, res) => {
   res.send(newLocation);
 });
 
+app.get('/weather', (req, res) => {
+  const weatherData = require('./data/weather.json');
+  const weatherArr = [];
+  weatherData.replaceMe.forEach(jsonObj => {
+    const weather = new Weather(jsonObj);
+    weatherArr.push(weather);
+  });
+  res.send(weatherArr);
+});
+
 /* ----------------- Helper Functions ----------------- */
 
 function Location(search_query, formatted_query, latitude, longitude) {
@@ -49,6 +59,10 @@ function Location(search_query, formatted_query, latitude, longitude) {
   this.latitude = latitude;
 }
 
+function Weather(weatherJsonObj) {
+  this.forecast_query = weatherJsonObj.forecast_query;
+  this.time_query = weatherJsonObj.jstime_query;
+}
 
 
 /* ----------------- Start the server ----------------- */
