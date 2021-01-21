@@ -38,3 +38,23 @@ Start time: 2:00
 Finish time: 6:00
 
 Actual time needed to complete: 3:00
+
+Number and name of feature: Parks and Weather
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 3:00
+
+Finish time: 8:00
+
+Actual time needed to complete: 5 hours
+
+Number and name of feature: SQL
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 4:00
+
+Finish time: 7:00
+
+Actual time needed to complete: 3 hours
