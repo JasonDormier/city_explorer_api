@@ -9,7 +9,16 @@
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+* get api keys
+
+* generate a .env with with varibles
+
+* install node modules
+
+* setup a port
+
+* get a connection string for the database URL
+
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
@@ -23,13 +32,17 @@
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
 ## Collaborators
-Brendan Smith
-Seamus Brown
-Stephen Webber
+* Brendan Smith
+
+* Seamus Brown
+
+* Stephen Webber
+
+* Chance Harmon
 
 ## Time
 
-Number and name of feature: Location and weather constructor
+## Number and name of feature: Location and weather constructor
 
 Estimate of time needed to complete: 2 hours
 
@@ -39,7 +52,7 @@ Finish time: 6:00
 
 Actual time needed to complete: 3:00
 
-Number and name of feature: Parks and Weather
+## Number and name of feature: Parks and Weather
 
 Estimate of time needed to complete: 2 hours
 
@@ -49,12 +62,26 @@ Finish time: 8:00
 
 Actual time needed to complete: 5 hours
 
-Number and name of feature: SQL
+## Number and name of feature: SQL
 
 Estimate of time needed to complete: 2 hours
 
 Start time: 4:00
 
 Finish time: 7:00
+
+Actual time needed to complete: 3 hours
+
+## Number and name of feature: Yelp and Movies
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 4:00
+
+Finish time: 5:00
+
+Start time: 6:00
+
+Finish time: 8:00
 
 Actual time needed to complete: 3 hours
